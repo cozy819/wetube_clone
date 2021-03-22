@@ -14,7 +14,7 @@ const midTwo = (req, res) => {
   res.redirect("/");
 };
 
-const home = (req, res) => res.rende("Home");
+const home = (req, res) => res.render("Home");
 const aboutUs = (req, res) => res.send("About Us");
 const fcontact = (req, res) => res.send("Contact");
 const fprotected = (req, res) => res.send("Protected");
